@@ -1097,7 +1097,7 @@
           }
 
           const q = encodeURIComponent(chunks[idx]);
-          const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi-VN&client=tw-ob&q=${q}`;
+          const url = `https://translate.googleapis.com/translate_tts?ie=UTF-8&tl=vi-VN&client=tw-ob&q=${q}`;
           const audio = new Audio(url);
           audio.playbackRate = 0.90; // Tốc độ dịu dàng, to rõ, chậm rãi cho trẻ nhà trẻ
           audio.volume = 1.0;
