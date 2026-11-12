@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+  <meta name="referrer" content="no-referrer">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>🌈 VƯỜN TRÍ TUỆ CỦA BÉ - Học mà chơi – Chơi mà học</title>
@@ -1097,7 +1098,7 @@
           }
 
           const q = encodeURIComponent(chunks[idx]);
-          const url = `https://translate.googleapis.com/translate_tts?ie=UTF-8&tl=vi-VN&client=tw-ob&q=${q}`;
+          const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi-VN&client=tw-ob&q=${q}`;
           const audio = new Audio(url);
           audio.playbackRate = 0.90; // Tốc độ dịu dàng, to rõ, chậm rãi cho trẻ nhà trẻ
           audio.volume = 1.0;
